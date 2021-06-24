@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int i;
+	char i;
 	char c[] = "Holberton";
 
 	for (i = 0; i <= 9; i++)
 	{
 		_putchar(i[c]);
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }
