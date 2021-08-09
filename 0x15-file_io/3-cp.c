@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 int open_files(char *f_from, char *f_to);
 int read_files(int from_fd, int to_fd, char *f_from, char *f_to);
 int write_to_file(char *buff, int to_fd, int read_chars, char *f_to);
